@@ -1,0 +1,21 @@
+#mainPage {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url('/images/header-bg.jpg');
+	background-size: cover;
+}
+
+.content {
+	position: relative;
+	top: 10vh;
+	text-align: center;
+}
+
+#wandererBadge img {
+	display: block;
+	margin: auto;
+}
+
