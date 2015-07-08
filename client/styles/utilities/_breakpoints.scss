@@ -1,0 +1,14 @@
+$max-mobile-width: 480px;
+$max-tablet-width: 768px;
+$max-desktop-width: 992px;
+
+// $mobile: new-breakpoint(max-width $max-mobile-width);
+// $tablet: new-breakpoint(min-width $max-mobile-width + 1 max-width $max-tablet-width);
+// $desktop: new-breakpoint(min-width $max-tablet-width + 1 max-width $max-desktop-width);
+// $wide-desktop: new-breakpoint(min-width $max-desktop-width + 1);
+
+// $mobile-and-up: new-breakpoint(min-width 0);
+// $tablet-and-up: new-breakpoint(min-width $max-mobile-width + 1);
+// $desktop-and-up: new-breakpoint(min-width $max-tablet-width + 1);
+
+// $tablet-and-down: new-breakpoint(max-width $max-tablet-width);

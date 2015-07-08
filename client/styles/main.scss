@@ -1,21 +1,14 @@
-#mainPage {
-	width: 100vw;
-	height: 100vh;
-	position: absolute;
-	top: 0;
-	left: 0;
-	background: url('/images/header-bg.jpg');
-	background-size: cover;
-}
+/* ---Libraries--- */
 
-.content {
-	position: relative;
-	top: 10vh;
-	text-align: center;
-}
 
-#wandererBadge img {
-	display: block;
-	margin: auto;
-}
+/* ---Utilities--- */
+	@import "utilities/divHeightFix";
+	@import "utilities/breakpoints";
+	@import "utilities/normalize";
+	@import "utilities/reset";
+	@import "utilities/mixins";
+	@import "utilities/customfonts";
 
+/* ---Project--- */
+	@import "projectDefaults";
+	@import "mobile";

@@ -1,0 +1,45 @@
+/* ---Project Defaults--- */
+	body {
+		margin: 0;
+		padding: 0;
+		width: 100vw;
+		min-width: 100vw;
+		height: 100vh;
+		min-height: 100vh;
+	}
+
+	#pageContainer {
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin: 0;
+		padding: 0;
+		width: 100vw;
+		min-width: 100vw;
+		height: 100vh;
+		min-height: 100vh;
+	}
+
+	.hideIt {
+		display: none;
+	}
+
+	#backgroundArt {
+		margin: 0;
+		width: 100vw;
+		height: 100vh;
+		min-height: 100vh;
+		position: relative;
+		top: 0;
+		background: url('/images/header-bg-alt.jpg');
+		background-size: cover;
+		background-position: center right;
+	}
+
+	#header {
+
+	}
+
+	#footer {
+		
+	}

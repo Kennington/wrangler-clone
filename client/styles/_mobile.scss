@@ -1,0 +1,62 @@
+@media only screen and (max-width: $max-mobile-width) {
+	/* ---Landing Background---*/
+		.content {
+			display: block;
+			margin: 0 auto;
+			text-align: center;
+			margin-top: 10vh;
+		}
+
+		#wandererBadge {
+			margin-bottom: 15px;
+		}
+
+		#wandererBadge img {
+			width: 150px;
+		}
+
+		.content header {
+			margin-bottom: 15px;
+			color: #2E2F2B;
+			text-transform: uppercase;
+			font-family: 'Knockout-htf49-Liteweight';
+  		font-size: 40px;
+  		line-height: 35px;
+		}
+
+		#submitNowTopButton {
+			padding: 5px;
+			font-family: 'Akkurat-Light';
+			font-size: 16px;
+			text-transform: uppercase;
+			border: 1px solid #2E2F2B;
+			cursor: pointer;
+		}
+
+	/* ---Header--- */
+
+	/* ---Footer--- */
+		footer {
+			position: fixed;
+			bottom: 0;
+			width: 100vw;
+			padding: 0 20px;
+			display: block;
+			float: left;
+			background: #000000;
+			color: #FFFFFF;
+		}
+
+		footer #footerLogo {
+			float: left;
+			margin-top: 5px;
+			width: 50px;
+		}
+
+		footer #copyright {
+			margin-top: 10px;
+			float: right;
+			font-family: 'Agenda-Light';
+			font-size: 10px;
+		}
+}
