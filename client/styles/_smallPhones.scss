@@ -1,0 +1,129 @@
+// @media (max-width: $mobile) {
+	/* ---Main Page Top---*/
+		.content {
+			margin: 0 auto;
+			text-align: center;
+			margin-top: 10vh;
+		}
+
+		#wandererBadge {
+			margin-bottom: 15px;
+		}
+
+		#wandererBadge img {
+			width: 150px;
+		}
+
+		.content header {
+			position: relative;
+			margin-bottom: 15px;
+			color: #2E2F2B;
+			text-transform: uppercase;
+			font-family: 'Knockout-Liteweight';
+  		font-size: 40px;
+  		line-height: 35px;
+		}
+
+		#participate {
+			padding: 5px;
+			font-family: 'Akkurat-Light';
+			font-size: 16px;
+			text-transform: uppercase;
+			border: 1px solid #2E2F2B;
+			cursor: pointer;
+		}
+
+	/* ---Main Page Center--- */
+		#contest_intro {
+			font-family: 'Agenda-Medium-Condensed';
+			font-size: 20px;
+			line-height: 28px;
+			text-align: left;
+			color: #FFFFFF;
+			margin-top: 85px;
+		}
+
+		#contest_details {
+			border-left: 1px solid #FFFFFF;
+			border-top: 1px solid #FFFFFF;
+			border-right: 1px solid #FFFFFF;
+			margin-top: 80px;
+			color: #FFFFFF;
+		}
+
+		#contest_details h3 {
+			padding: 12px 20px;
+			font-family: 'Agenda-Light';
+			font-size: 30px;
+			text-transform: uppercase;
+			font-weight: 700;
+			border-bottom: 1px solid #FFFFFF;
+		}
+
+		#contest_details h1 {
+			float: left;
+			font-family: 'Agenda-Bold';
+			font-size: 50px;
+			line-height: 40px;
+			margin: 0;
+			padding: 19px 20px 17px 20px;
+		}
+
+		#contest_details h2 {
+			float: left;
+			font-family: 'Agenda-Bold-Condensed';
+			font-size: 45px;
+			line-height: 40px;
+			text-transform: uppercase;
+			padding-top: 23px;
+		}
+
+		#contest_details h4 {
+			clear: both;
+			font-family: 'Agenda-Thin-Condensed';
+			font-size: 30px;
+			line-height: 25px;
+			text-transform: none;
+			letter-spacing: 1px;
+			font-weight: 300;
+			border-bottom: 1px solid #FFFFFF;
+			padding-left: 20px;
+			padding-bottom: 19px;
+			padding-right: 30px;
+		}
+
+		#submitButton, #otherEntries {
+			clear: both;
+			font-family: 'Agenda-Bold-Condensed';
+			font-size: 38px;
+			text-transform: uppercase;
+			background: #EDC20F;
+			cursor: pointer;
+			color: #FFFFFF;
+			text-align: center;
+			padding: 7px 0;
+			margin-top: 50px;
+		}
+
+		#otherEntries {
+			margin-top: 20px;
+			margin-bottom: 80px;
+			background: #9F9F9F;
+		}
+
+	/* ---Main Page Bottom--- */
+		.separator_image {
+			background: url('/images/separator.png');
+			height: 15px;
+			margin-top: 30px;
+		}
+
+		.inspiration {
+			font-family: 'Agenda-Medium';
+			font-size: 30px;
+			line-height: 1.25;
+			font-weight: bold;
+			margin-top: 20px;
+		}
+
+// }

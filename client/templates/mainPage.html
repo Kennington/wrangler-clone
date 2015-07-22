@@ -1,22 +1,84 @@
 <template name="mainPage">
 	{{> header}}
-	<section id="backgroundArt">
-		<div class="row">
-			<div class="col-xs-1 col-sm-1 col-md-1 col-lg-4"></div>
-			<div class="col-xs-10 col-sm-10 col-md-10 col-lg-7">
+	<article id="mainPage">
+		<section id="main_top">
+			<div class="row">
+				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-4"></div>
+				<div class="col-xs-10 col-sm-10 col-md-10 col-lg-7">
 
-				<div class="content">
-					<div id="wandererBadge">
-						<img src="/images/wanderer-badge.png" alt="Search for True Wanderers by Wrangler" />
+					<div class="content">
+						<div id="wandererBadge">
+							<img src="/images/wanderer-badge.png" alt="Search for True Wanderers by Wrangler" />
+						</div>
+
+						<header>Journey into the Open Road</header>
+
+						<div id="participate">Participate and Win a Superbike</div>
 					</div>
 
-					<header>Journey into the Open Road</header>
-
-					<div id="submitNowTopButton">Participate and Win a Superbike</div>
 				</div>
-
 			</div>
-		</div>
-	</section>
+		</section>
+
+		<section id="main_center">
+			<div class="row">
+				<div class="col-xs-1 col-sm-2"></div>
+				<div class="col-xs-10 col-sm-8">
+					<p id="contest_intro">From March 20th - April 10th you can apply to be 1 of 10 bikers to ride &amp; raise dust with Wrangler. A journey to the soul, stand the chance to win a custom Triump motorcycle.</p>
+
+
+					<div id="contest_details">
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<h3>how it works</h3>
+							</div>
+
+							<div class="detail_container1">
+								<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+									<h1>1</h1>
+									<h2>submit</h2>
+									<h4>Show us your adventurous side.</h4>
+								</div>
+							</div>
+
+							<div class="detail_container2">
+								<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+									<h1>2</h1>
+									<h2>vote</h2>
+									<h4>Vote for your favourite submission.</h4>
+								</div>
+							</div>
+
+							<div class="detail_container3">
+								<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+									<h1>3</h1>
+									<h2>ride out</h2>
+									<h4>10 riders will be selected to journey across the country on two wheels.<br />Only 1 will take home the grand prize.</h4>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+
+					<div id="submitButton">Submit Now</div>
+
+					<div id="otherEntries">See Others' Entries</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section id="main_bottom">
+			<div class="row">
+				<div class="col-xs-1"></div>
+				<div class="col-xs-10">
+					<div class="separator_image"></div>
+					<h1 class="inspiration">Get Inspired By The Adventure Hungry</h1>
+				</div>
+			</div>
+		</section>
+	</article>
+
 	{{> footer}}
 </template>

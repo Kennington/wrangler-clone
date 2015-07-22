@@ -1,45 +1,138 @@
 /* ---Project Defaults--- */
 	body {
+		position: absolute;
 		margin: 0;
 		padding: 0;
 		width: 100vw;
 		min-width: 100vw;
 		height: 100vh;
 		min-height: 100vh;
-	}
-
-	#pageContainer {
-		position: absolute;
 		top: 0;
 		left: 0;
-		margin: 0;
-		padding: 0;
-		width: 100vw;
-		min-width: 100vw;
-		height: 100vh;
-		min-height: 100vh;
+		overflow: auto;
+		text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 	}
 
 	.hideIt {
 		display: none;
 	}
 
-	#backgroundArt {
-		margin: 0;
+/* ---Header--- */
+	nav {
+		position: fixed;
 		width: 100vw;
-		height: 100vh;
-		min-height: 100vh;
-		position: relative;
 		top: 0;
+		left: 0;
+		background: #EDC20F;
+		z-index: 100;
+	}
+
+	nav .container {
+		// @media (max-width: $mobile -1) {
+			width: 80vw;
+		// }
+		@media (min-width: $mobile) and (max-width: $tablet - 1) {
+			width: 82vw;
+		}
+		@media (min-width: $tablet) and (max-width: $desktop - 1) {
+			width: 65vw;
+		}
+		@media (min-width: $desktop) and (max-width: $widescreen -1) {
+			width: 65vw;
+		}
+		@media (min-width: $widescreen) {
+			width: 65vw;
+		}
+		padding: 0;
+		margin: 0 auto;
+	}
+
+	#logo {
+		float: left;
+		width: 115px;
+		margin-top: 4px;
+		margin-bottom: 2px;
+		cursor: pointer;
+	}
+
+	#socialButtons {
+		float: right;
+	}
+
+	#facebook, #instagram, #twitter, #mainMenu {
+		width: 28px;
+		margin-top: 9px;
+	}
+
+	#mainMenu {
+		background: url('/images/menu.png') no-repeat;
+		background-size: contain;
+		height: 28px;
+		float: right;
+		margin-top: 13px;
+		margin-left: 20px;
+	}
+
+/* ---Footer--- */
+	footer {
+		position: fixed;
+		bottom: 0;
+		width: 100vw;
+		padding: 0 20px;
+		display: block;
+		float: left;
+		background: #000000;
+		color: #FFFFFF;
+		z-index: 100;
+	}
+
+	footer #footerLogo {
+		float: left;
+		margin-top: 4px;
+		margin-bottom: 3px;
+		width: 50px;
+	}
+
+	footer #copyright {
+		margin-top: 5px;
+		float: right;
+		font-family: 'Agenda-Light';
+		font-size: 10px;
+	}
+
+/* ---Main Page--- */
+	#mainPage {
+		overflow: scroll;
+	}
+
+	#main_top {
+		position: fixed;
+		margin: 0;
+		padding: 0;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		min-height: 100vh;
 		background: url('/images/header-bg-alt.jpg');
 		background-size: cover;
 		background-position: center right;
 	}
 
-	#header {
-
+	#main_center {
+		position: relative;
+		width: 100vw;
+		min-height: 100vh;
+		margin-top: 90vh;
+		background: url('/images/instructions-bg.jpg');
+		background-size: cover;
+		background-position: center center;
 	}
 
-	#footer {
-		
+	#main_bottom {
+		position: relative;
+		width: 100vw;
+		min-height: 60vh;
+		background: #FFFFFF;
 	}
